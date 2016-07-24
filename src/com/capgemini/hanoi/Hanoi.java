@@ -1,9 +1,5 @@
 package com.capgemini.hanoi;
 
-/**
- * @author PWOJTKOW
- * Class with one method, which is counting numbers of moves needed to solve Hanoi Tower.
- */
 public class Hanoi {
 
 	private static final int BUFFOR_MOVE = 1;

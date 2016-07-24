@@ -17,7 +17,7 @@ public class HanoiTest {
 	}
 	
 	@Test 
-	public void shouldHanoiMethodReturnOne(){
+	public void shouldHanoiMethodReturnOne() {
 		//given
 		int blocks = 1;
 		//when
@@ -27,7 +27,7 @@ public class HanoiTest {
 	}
 
 	@Test
-	public void shouldHanoiMethodReturnThree(){
+	public void shouldHanoiMethodReturnThree() {
 		//given
 		int blocks = 2;
 		//when
@@ -37,7 +37,7 @@ public class HanoiTest {
 	}
 	
 	@Test
-	public void shouldHanoiMethodReturn31(){
+	public void shouldHanoiMethodReturn31() {
 		//given
 		int blocks = 5;
 		//when
@@ -47,7 +47,7 @@ public class HanoiTest {
 	}
 	
 	@Test (expected = IllegalArgumentException.class)
-	public void shouldHanoiMethodReturnMinusOne() throws IllegalArgumentException{
+	public void shouldHanoiMethodReturnMinusOne() throws IllegalArgumentException {
 		//given
 		int blocks = -3;
 		//when
